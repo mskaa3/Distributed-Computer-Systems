@@ -36,6 +36,7 @@ public class client {
 //            }
 //        }
 //        scanner.close();
+        
 //=======================================================================================================
         //second method
         System.out.println("Boolean AND logic Calculator");
@@ -61,10 +62,6 @@ public class client {
         }
 
         scanner.close();
-
-
-
-
 
         //=======================================================================================================
         //third method
