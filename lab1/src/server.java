@@ -26,6 +26,7 @@ public class server {
     }
 
     public Boolean echo2(boolean bool, int num ){
+        System.out.println("....Your answer is ready to see on the client side! ");
             if (bool){
                 if (num==1){
                     return true;
@@ -39,7 +40,6 @@ public class server {
 
     public String echo3(String str, int myNum){
         System.out.println("....Your message is already on the client side! ");
-
         return str +" "+ myNum;
     }
 }
